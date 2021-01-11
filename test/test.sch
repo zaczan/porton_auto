@@ -1,0 +1,72 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "test1"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5FFC580C
+P 3100 2500
+F 0 "R?" H 3170 2546 50  0000 L CNN
+F 1 "330" H 3170 2455 50  0000 L CNN
+F 2 "" V 3030 2500 50  0001 C CNN
+F 3 "~" H 3100 2500 50  0001 C CNN
+	1    3100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FFC6305
+P 2750 2250
+F 0 "D?" H 2743 2467 50  0000 C CNN
+F 1 "LED" H 2743 2376 50  0000 C CNN
+F 2 "" H 2750 2250 50  0001 C CNN
+F 3 "~" H 2750 2250 50  0001 C CNN
+	1    2750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5FFC881F
+P 2750 2800
+F 0 "#PWR0101" H 2750 2650 50  0001 C CNN
+F 1 "VCC" H 2765 2973 50  0000 C CNN
+F 2 "" H 2750 2800 50  0001 C CNN
+F 3 "" H 2750 2800 50  0001 C CNN
+	1    2750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FFC8E35
+P 2350 2450
+F 0 "#PWR0102" H 2350 2200 50  0001 C CNN
+F 1 "GND" H 2355 2277 50  0000 C CNN
+F 2 "" H 2350 2450 50  0001 C CNN
+F 3 "" H 2350 2450 50  0001 C CNN
+	1    2350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2350 3100 2250
+Wire Wire Line
+	3100 2250 2900 2250
+Wire Wire Line
+	2600 2250 2350 2250
+Wire Wire Line
+	2350 2250 2350 2450
+Wire Wire Line
+	2750 2800 3100 2800
+Wire Wire Line
+	3100 2800 3100 2650
+$EndSCHEMATC
