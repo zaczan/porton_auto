@@ -36,17 +36,6 @@ F 3 "~" H 2500 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5FFD4EA0
-P 3050 2200
-F 0 "R2" H 3120 2246 50  0000 L CNN
-F 1 "150" H 3120 2155 50  0000 L CNN
-F 2 "" V 2980 2200 50  0001 C CNN
-F 3 "~" H 3050 2200 50  0001 C CNN
-	1    3050 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FFD5A07
 P 1800 2800
@@ -64,14 +53,12 @@ Wire Wire Line
 Wire Wire Line
 	2650 1800 3050 1800
 Wire Wire Line
-	3050 1800 3050 2050
-Wire Wire Line
-	3050 2350 3050 2600
-Wire Wire Line
 	1800 2500 1800 2600
 Wire Wire Line
 	3050 2600 1800 2600
 Connection ~ 1800 2600
 Wire Wire Line
 	1800 2600 1800 2800
+Wire Wire Line
+	3050 1800 3050 2600
 $EndSCHEMATC
