@@ -67,10 +67,9 @@ F 0 "D01" V 3089 2082 50  0000 R CNN
 F 1 "LED" V 2998 2082 50  0000 R CNN
 F 2 "" H 3050 2200 50  0001 C CNN
 F 3 "~" H 3050 2200 50  0001 C CNN
-F 4 "D" H 3050 2200 50  0001 C CNN "Spice_Primitive"
-F 5 "LED" H 3050 2200 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3050 2200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "2 1" H 3050 2200 50  0001 C CNN "Spice_Node_Sequence"
+F 4 "I" H 3050 2200 50  0001 C CNN "Spice_Primitive"
+F 5 "Y" H 3050 2200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 6 "2 1" H 3050 2200 50  0001 C CNN "Spice_Node_Sequence"
 	1    3050 2200
 	0    -1   -1   0   
 $EndComp
